@@ -1,0 +1,29 @@
+ul{
+   /* list-style-type: circle;
+    background: rgba(35, 68, 129, 0.933);
+    padding: 15%;
+    border: 2px solid grey; */
+    border-left: 5px solid green;
+    background-color: #fedefe;
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 20px;
+
+}
+
+ol li{
+    list-style-type: upper-roman;
+    background: #fedefe;
+    margin-left: 30px;
+    padding: 8px 18px;
+    border: 1px solid gray;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #ddd;
+    padding: 15px;
+}
