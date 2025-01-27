@@ -1,0 +1,29 @@
+ article  p{
+    background:blue;
+    color: aliceblue;
+    padding: 20px;
+} 
+
+
+article > p{
+    background:rgb(255, 0, 13);
+    color: aliceblue;
+    padding: 20px;
+}
+
+article ~ p{
+    background:rgb(0, 255, 42);
+    color: aliceblue;
+    padding: 20px;
+}
+
+article + p{
+    background:rgb(255, 115, 0);
+    color: aliceblue;
+    padding: 20px;
+}
+
+h3:first-child{
+    background-color: antiquewhite;
+    color: black;
+}
