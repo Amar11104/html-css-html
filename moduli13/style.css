@@ -23,7 +23,25 @@ table{
     border-collapse: collapse;
 }
 
+tbody tr:nth-child(odd) {
+    background-color: #fedefe;
+}
+
+tbody tr:nth-child(even) {
+    background-color:blue;
+}
+
 td, th{
     border: 1px solid #ddd;
     padding: 15px;
 }
+
+div{
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    overflow: scroll;
+    background-color: #fedefe;
+    height: 200px;
+    width: 200px;
+}
+
