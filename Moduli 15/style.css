@@ -1,0 +1,66 @@
+div#static {
+    position: static;
+    border: 3px solid #00014e;
+    width: 250px;
+    height: 250px;
+    padding: 250px;
+
+}
+
+div#relative {
+    position: relative;
+    border: 3px solid #00014e;
+    width: 250px;
+    height: 250px;
+    left: 200px;
+    top: 20px;
+}
+
+div#fixed {
+    position: fixed;
+    border: 3px solid #00014e;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    right: 200px;
+    top: 100px;
+}
+
+div#parent {
+    position: relative;
+    border: 3px solid #00014e;
+    width: 250px;
+    height: 250px;
+    
+}
+
+div#absolute {
+    position: absolute;
+    border: 3px solid #00014e;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    right: 80px;
+    top: 70px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #00014e;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: black;
+    color: white;
+    text-align: center;
+    padding: 14 px 16px;
+    text-decoration: none;
+}
