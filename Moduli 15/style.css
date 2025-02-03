@@ -44,8 +44,8 @@ div#absolute {
     top: 70px;
     color: black;
 }
-
-ul {
+/* 
+#horizontal-menu ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -53,14 +53,118 @@ ul {
     background-color: #00014e;
 }
 
-li {
+#horizontal-menu li {
     float: left;
 }
 
-li a {
+#horizontal-menu li a {
     display: black;
     color: white;
     text-align: center;
     padding: 14 px 16px;
     text-decoration: none;
 }
+
+
+
+#horizontal-menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4caf50;
+} */
+
+.navbar {
+    overflow: hidden;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size:16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+  
+    font-size: 16px;
+    border: none;
+    color:black ;
+    padding:14px 16px;
+    background-color: aquamarine;
+    font: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+  
+    background-color: bisque;
+  }
+  
+  .dropdown-content  {
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .column {
+    float: left;
+    width:33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 250px;
+  
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+}
+
+#vertical-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: aqua;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+ }
+
+ #vertical-menu li a {
+    display: block;
+    color: #ccc;
+    padding: 8px 16px;
+    text-decoration: none;
+ }
+
+ #vertical-menu li a.active {
+    background-color: bisque;
+    color: black;
+ }
+
+ #vertical-menu li a:hover:not(.active) {
+    background-color: blue;
+    color: red;
+ }
