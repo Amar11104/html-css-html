@@ -1,0 +1,35 @@
+div.Gallery {
+    margin: 5px;
+    border: 5px solid blueviolet;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 5px solid yellow;
+
+}
+
+div.Gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.sprite {
+    background: url("../Moduli16/images/Day12.rar");
+  }
+  
+
+  .engineers {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px -500px;
+  
+  }
