@@ -1,0 +1,87 @@
+div#translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: blue;
+    transform: translate(100px,50px);
+    padding: 10px;
+
+}
+
+div#rotate {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px;
+    transform: rotate(90deg);
+}
+
+div#scale {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px;
+    /* transform: scale(1,2); */
+    /* transform: scaleX(3); */
+    transform: scaleY(3);
+}
+
+div#skewx {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(255, 0, 64);
+    padding: 10px;
+    transform: skewX(-40deg);
+    
+}
+
+div#skewy {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(44, 4, 14);
+    padding: 10px;
+    transform: skewY(40deg);
+    
+}
+
+div#rotatex {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(44, 4, 14);
+    padding: 10px;
+    transform: skewY(130deg);
+    
+}
+
+div#rotatey {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(44, 4, 14);
+    padding: 10px;
+    transform: rotateY(130deg);
+    
+}
+
+div#rotatez {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(44, 4, 14);
+    padding: 10px;
+    transform: rotatez(130deg);
+    
+}
