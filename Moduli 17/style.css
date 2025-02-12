@@ -74,3 +74,56 @@ h2::before {
     color: black;
     margin: 10px;
 } */
+
+#example-one {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgb(68, 172, 99);
+}
+
+#example-two {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 3px solid lime;
+    
+}
+
+#example-three {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: url(../Moduli\ 17/2.jpg);
+    
+}
+
+#example-four {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 5px; 
+    background: rgb(112, 218, 121);
+    
+}
+
+#example-five {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px/60px ; 
+    background: rgb(112, 218, 121);
+    
+}
+
+#example-six {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 60px/10px ; 
+    background: rgb(112, 218, 121);
+    
+}
