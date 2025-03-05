@@ -1,0 +1,19 @@
+@media(min-width: 600px) {
+    body {
+        background-color: blue;
+        color: azure;
+    }
+}
+
+@media(max-width: 600px) {
+    body {
+        background-color: green;
+        color: yellow;
+
+    }
+}
+
+#images {
+    height: 200px;
+    width: 200px;
+}
