@@ -235,7 +235,7 @@ nav {
 .contact-form button {
     width: 100%;
     padding: 15px;
-    background-color: #f1c40f;
+    background-color: #000000;
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
@@ -250,10 +250,70 @@ nav {
     transform: translateY(-3px);
 }
 
+
+#section-2 {
+    background-color: #000000;
+    min-height: 745px;
+    color: white;
+}
+
+.title-box {
+    text-align: center;
+    max-width: 609px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title-box h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-box .line {
+    width: 87px;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.services-box {
+    margin-top: 80px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    padding-bottom: 100px;
+
+}
+
+.services-box .service img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+
+
+
+.service {
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
 /* Footer */
 footer {
     background-color: #111;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 30px 20px;
     text-align: center;
 }
@@ -304,3 +364,51 @@ footer a:hover {
         cursor: pointer;
     }
 }
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Makes the hero section fill the entire viewport height */
+    overflow: hidden; /* Prevents image overflow */
+    background-image: url(Imag/5.jpg);
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    z-index: -1; /* Puts the image behind the text */
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text in the middle */
+    text-align: center;
+    color: white; /* White text for contrast */
+    z-index: 1; /* Ensures the text stays in front of the image */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #ff7f50; /* Customize button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
