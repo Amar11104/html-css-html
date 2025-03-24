@@ -19,7 +19,7 @@ a {
 /* Navigation */
 header {
     background-color: #111;
-    color: white;
+    color: rgb(238, 232, 232);
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -48,7 +48,7 @@ nav {
 }
 
 .nav-links a {
-    color: #fff;
+    color: #ece2e2;
     font-size: 1.1rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -69,7 +69,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgb(235, 229, 229);
 }
 
 .hero-content h1 {
@@ -87,7 +87,7 @@ nav {
 
 .btn-primary {
     background-color: #f1c40f;
-    color: white;
+    color: rgb(241, 234, 234);
     padding: 15px 40px;
     font-size: 1.2rem;
     font-weight: 600;
@@ -236,7 +236,7 @@ nav {
     width: 100%;
     padding: 15px;
     background-color: #000000;
-    color: white;
+    color: rgb(253, 251, 251);
     font-size: 1.2rem;
     font-weight: bold;
     border: none;
@@ -254,7 +254,7 @@ nav {
 #section-2 {
     background-color: #000000;
     min-height: 745px;
-    color: white;
+    color: rgb(48, 48, 49);
 }
 
 .title-box {
@@ -297,6 +297,33 @@ nav {
     height: 200px; 
     object-fit: cover; 
     border-radius: 10px; 
+}
+
+
+#about {
+    padding: 3rem 2rem;
+    background-image: url('Imag/1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(17, 11, 11);
+    text-align: center;
+    height: 800px;  
+}
+
+#about .about-container {
+    background-color: rgba(7, 4, 4, 0.5); 
+    padding: 2rem;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
@@ -368,8 +395,8 @@ footer a:hover {
 .hero {
     position: relative;
     width: 100%;
-    height: 100vh; /* Makes the hero section fill the entire viewport height */
-    overflow: hidden; /* Prevents image overflow */
+    height: 100vh; 
+    overflow: hidden; 
     background-image: url(Imag/5.jpg);
 }
 
@@ -379,18 +406,18 @@ footer a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire section */
-    z-index: -1; /* Puts the image behind the text */
+    object-fit: cover; 
+    z-index: -1; 
 }
 
 .hero-content {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centers the text in the middle */
+    transform: translate(-50%, -50%); 
     text-align: center;
-    color: white; /* White text for contrast */
-    z-index: 1; /* Ensures the text stays in front of the image */
+    color: white; 
+    z-index: 1; 
 }
 
 h1 {
@@ -404,7 +431,7 @@ p {
 }
 
 .btn-primary {
-    background-color: #ff7f50; /* Customize button color */
+    background-color: #ff7f50; 
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -412,3 +439,43 @@ p {
     font-size: 1rem;
 }
 
+@media only screen and (max-width: 800px){
+
+    header{
+        flex-direction: column;
+    }
+
+   .nav-links nav ul li{
+      width: 100%;
+      text-align: center;
+    
+    }
+
+    header img{
+        margin-left: auto;
+        margin-right: auto;
+ 
+    }
+
+    .main-heading h1 {
+        font-size: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-heading a {
+        font-size: 13px;
+        padding: 25px;
+    }
+
+    .main-heading{
+        margin-top: 0px;
+    }
+
+    nav ul{
+
+        padding-left: 0px;
+
+    }
+}
