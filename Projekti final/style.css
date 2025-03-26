@@ -355,13 +355,35 @@ footer a:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    .room-gallery {
+
+@media only screen and (max-width: 800px) {
+
+    /* Header Styling */
+    header {
         flex-direction: column;
+        padding: 20px; /* Added padding for better spacing */
     }
 
-    .room {
+    /* Navigation Links */
+    nav ul {
+        padding-left: 0px;
+    }
+
+    nav ul li {
         width: 100%;
+        text-align: center;
+        margin-bottom: 10px; /* Added margin for better spacing between items */
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Hero Section Adjustments */
+    .hero {
+        height: 70vh; /* Reduced height for mobile screens */
+        padding: 0 20px; /* Added padding for better spacing */
     }
 
     .hero-content h1 {
@@ -373,24 +395,70 @@ footer a:hover {
         max-width: 600px;
     }
 
-    .nav-links {
-        display: none;
+    /* About Section */
+    #about {
+        padding: 3rem 2rem;
+        background-size: cover;
+        background-position: center;
+        height: auto; /* Adjust height for mobile */
     }
 
-    .nav-links.active {
-        display: flex;
+    #about .about-container {
+        background-color: rgba(7, 4, 4, 0.5); 
+        padding: 2rem;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #about h2 {
+        font-size: 2.2rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+        max-width: 90%; /* Adjust width for mobile */
+        margin: 0 auto;
+    }
+
+    /* Footer Styling */
+    footer {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    /* Services Section */
+    .services-box {
+        flex-direction: column;
+        padding-bottom: 40px; /* Adjust padding for mobile screens */
+    }
+
+    .service {
+        width: 90%;
+        margin: 10px auto; /* Center and add margin for spacing */
+    }
+
+    /* Form Elements in Contact Section */
+    .form-row {
         flex-direction: column;
     }
 
-    .nav-links li {
-        margin: 15px 0;
+    input[type="text"], input[type="email"], textarea {
+        width: 90%;
+        margin: 10px auto; /* Center the input fields */
     }
 
-    .menu-icon {
-        display: block;
-        cursor: pointer;
+    /* Additional Adjustments for Main Heading or Specific Elements */
+    .main-heading h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
     }
+
+    .main-heading a {
+        font-size: 12px;
+        padding: 20px;
+    }
+
 }
+
 
 .hero {
     position: relative;
